@@ -1,52 +1,54 @@
-# BugHunter
+# Meality — AI-Powered Smart Meal Companion
 
-A lightweight bug finding tool focused on supporting security research and Bug Bounty workflow.
+Meality is a mobile app project designed to provide intelligent meal recommendations based on user ingredients, dietary goals, and regional context.
 
-This repository started as a personal project but currently contains a placeholder structure. It is designed to eventually support tools and automation for helping bug hunters with reconnaissance, scanning, and vulnerability workflows.
-
----
-
-##  Project Purpose
-
-BugHunter is intended to be a developer/bug-hunter focused toolbox for:
-- Security reconnaissance
-- Bug finding and classification
-- Integration with external tooling
-- Bug bounty automation
-
-This repo is currently empty or a scaffold; future work will implement targeted scanning workflows.
+Built for Android and iOS using React Native + Expo, Meality integrates with AI services to deliver custom meal suggestions in real time.
 
 ---
 
-##  Features (Planned)
+## 📱 App Overview
 
-- Recon modules for endpoint discovery
-- Integration hooks for vulnerability scanners
-- Automation of repetitive tasks
-- Secure workflow support
-- Visualization of findings
+Meality solves:
+✅ "What should I cook with these ingredients?"  
+by combining AI with personal preferences and localization.
 
-> *Note:* The current version on GitHub may be a scaffold or placeholder — features are planned and in development.
+Users can:
+
+- Enter available ingredients  
+- Specify dietary goals (weight loss, muscle gain, budget)  
+- Get AI-generated meal suggestions  
 
 ---
-## Danger
 
-Use at your own risk.
+## 🚀 Features
 
-This project is **experimental** and **under construction**.  
-It may produce incorrect results, fail silently, or behave unpredictably.
+### Free Tier
+- Limited daily AI suggestions
+- Rewarded ads unlock extended access
+- Basic UI
 
-DO NOT use this tool in production environments.  
-DO NOT rely on it for security assurance or compliance.
+### Premium Tier
+- Unlimited AI usage
+- No ads
+- Enhanced UI (glassmorphism)
+- Optimization tips & macro breakdowns
 
-You are fully responsible for how you use this software.
+---
 
-##  Usage
+## 📦 Tech Stack
 
-Currently this project is a foundation. Once implementations are added, the standard approach would be:
+- **React Native + Expo** – cross-platform mobile  
+- **OpenAI API** – meal suggestion AI  
+- **Redux / Zustand / Context** – state management  
+- **AdMob / Unity Ads** – rewarded ads  
+- **In-App Purchases** – subscription model
+
+---
+
+## 🎯 Getting Started
 
 ```bash
-git clone https://github.com/p1yuu/BugHunter.git
-cd BugHunter
-# install dependencies
-# run scanner / analysis
+git clone https://github.com/p1yuu/mealityApp.git
+cd mealityApp
+npm install
+expo start
